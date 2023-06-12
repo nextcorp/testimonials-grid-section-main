@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+html, body {
+    height: 100%;
+    font-size: 13px;
+}
+
+body {
+    width: 100%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 2rem 2.5rem;
+}
+
+.card:nth-of-type(1) {
+    margin-top: 4rem;
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
+}
+
+.card:nth-of-type(5) {
+    margin-bottom: 4rem;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.name {
+    margin-left: 1rem;
+}
+
+.name p {
+    font-weight: 500;
+}
+
+.card-title p {
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin: 1.25rem 0;
+}
+
+.card-text p {
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: block;
+    margin-top: 2rem;
+}
